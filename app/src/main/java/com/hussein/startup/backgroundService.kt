@@ -31,7 +31,7 @@ class backgroundService: Service(){
     var xold=0.0
     var yold=0.0
     var zold=0.0
-    var threadShould=2000.0
+    var threadShould=1850.0
     var oldtime:Long=0
 
     override fun onBind(intent: Intent): IBinder? {
